@@ -36,11 +36,8 @@ Explore the review datasets:
 
 A. The total number of reviews
 B. The number of reviews in a given year, y
-
 C. The number of distinct users who have written the reviews
-
 D. Top m users who have the largest number of reviews and its count
-
 E. Top n frequent words (lowercase) in the review text. The following punctuations i.e., “(”, “[”, “,”, “.”, “!”, “?”, “:”, “;”, “]”, “)”, and the given stopwords are excluded
 
 
@@ -48,9 +45,7 @@ Execution commands:
 spark-submit task1.py <input_file> <output_file> <stopwords> <y> <m> <n>
 
 input_file – the input file (the review dataset)
-
 output_file – the output file contains answers
-
 stopwords – the file contains the stopwords that will be removed for E
 
 ----------------------------------------------------------------------
@@ -64,13 +59,9 @@ Execution commands:
 spark-submit task2.py <review_file> <business_file > <output_file> <if_spark> <n>
 
 review _file – the input file (the review dataset)
-
 business_file – the input file (the business dataset)
-
 output_file – the output file contains answers
-
 if_spark – either “spark” or “no_spark”
-
 n – top n categories with highest average stars
 
 ----------------------------------------------------------------------
@@ -84,11 +75,7 @@ Execution commands:
 spark-submit task3.py <input_file> <output_file> <partition_type> <n_partitions> <n>
 
 input_file – the input file (the review dataset)
-
 output_file – the output file contains answers
-
 partition_type – the partition function, either “default” or “customized”
-
 n_partitions – the number of partitions (only effective for the customized partition function)
-
 n – the threshold of the number of reviews
