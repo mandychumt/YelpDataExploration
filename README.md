@@ -35,7 +35,6 @@ TASK 1
 Explore the review datasets:
 
 A. The total number of reviews
-
 B. The number of reviews in a given year, y
 
 C. The number of distinct users who have written the reviews
