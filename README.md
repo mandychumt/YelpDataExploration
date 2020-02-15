@@ -46,7 +46,6 @@ E. Top n frequent words (lowercase) in the review text. The following punctuatio
 
 
 Execution commands:
-
 spark-submit task1.py <input_file> <output_file> <stopwords> <y> <m> <n>
 
 input_file – the input file (the review dataset)
@@ -62,7 +61,6 @@ TASK 2
 Compute the average stars for each business category and output top n categories with the highest average stars (with an without spark).
 
 Execution commands:
-
 spark-submit task2.py <review_file> <business_file > <output_file> <if_spark> <n>
 
 review _file – the input file (the review dataset)
@@ -82,7 +80,6 @@ TASK 3
 Compute the businesses that have more than n reviews in the review file. At the same time, show the number of partitions for the RDD and the number of items per partition with either default or customized partition function. The customized one will have higher computational efficiency.
 
 Execution commands:
-
 spark-submit task3.py <input_file> <output_file> <partition_type> <n_partitions> <n>
 
 input_file – the input file (the review dataset)
